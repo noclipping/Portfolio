@@ -1,0 +1,28 @@
+#projects {
+  margin-top: -7vh;
+  height: 100vh;
+  max-width: 100%;
+  background-image: linear-gradient(to right, #282c34, #20262e);
+}
+h1 {
+  color: white;
+  font-size: 8vw;
+}
+img {
+  width: 100%;
+}
+#gridcontainer {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 100px;
+  margin: 100px;
+  color: red;
+}
+
+@media only screen and (max-width: 1240px) {
+  #gridcontainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}

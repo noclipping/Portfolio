@@ -1,0 +1,44 @@
+h1 {
+  font-size: 30px;
+  margin: 10px 0px;
+}
+.card_container {
+  display: grid;
+  border: solid 1px white;
+  border-radius: 3%;
+  padding: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.349);
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 0.2) 0%,
+    rgba(253, 29, 29, 0.2) 50%,
+    rgba(252, 176, 69, 0.2) 100%
+  );
+}
+
+@media only screen and (max-width: 1240px) {
+  .card_container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      " column-1 column-2 "
+      " column-3 column-2 ";
+  }
+  img {
+    grid-area: column-2;
+    width: 1fr;
+  }
+  p {
+    display: none;
+  }
+  .media {
+    grid-area: column-3;
+  }
+  h1 {
+    grid-area: column-1;
+  }
+  h1 {
+    font-size: 5vw;
+  }
+}

@@ -1,17 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Qwigley&display=swap");
 html,
 body {
   max-width: 100%;
-  overflow-x: hidden;
 
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
-html::-webkit-scrollbar {
-  display: none;
-}
-
-body::-webkit-scrollbar {
-  display: none;
+  scroll-snap-type: both mandatory;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -19,6 +12,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -26,4 +20,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+section {
+  scroll-snap-align: start;
+  text-align: center;
+  position: relative;
 }
