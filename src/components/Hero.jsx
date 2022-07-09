@@ -15,7 +15,7 @@ var points;
 function onLoad() {
   var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
   svg.setAttribute("width", window.outerWidth);
-  svg.setAttribute("height", window.outerHeight);
+  svg.setAttribute("height", "100vh");
   document.querySelector("#bg").appendChild(svg);
 
   var unitSize = (window.innerWidth + window.innerHeight) / 15;
@@ -227,7 +227,7 @@ export default function Hero() {
       <div className="container">
         <div className="height">
           <span className="text">
-            Devon Selvaggi
+            John Doetha
             <br />
             <br />
             <br />

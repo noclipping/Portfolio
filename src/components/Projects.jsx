@@ -4,8 +4,7 @@ import Card from "./Card";
 export default function Projects() {
   return (
     <section id="projects">
-      <h1 id="header">Projects</h1>
-      <div id="gridcontainer">
+      <div className="cards_container">
         <Card />
 
         <Card />

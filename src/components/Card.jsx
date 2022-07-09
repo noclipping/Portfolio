@@ -5,19 +5,20 @@ import { BsFillPlayFill } from "react-icons/bs";
 export default function Card() {
   return (
     <div className="card_container">
-      <h1>InstaClone</h1>
-      <img src="https://media2.giphy.com/media/CJl7OCbeJuZfIGSjuE/giphy.gif" />
-      <p>
-        Instagram clone built with Firebase and React. Firebase authentication,
-        comments, liking, following.
-      </p>
-      <div class="media">
+      <div className="card_header">
         <span>
-          <BsGithub size={40} />
+          <BsGithub />
         </span>
+        <h1>InstaClone</h1>
         <span>
-          <BsFillPlayFill size={40} />
+          <BsFillPlayFill />
         </span>
+      </div>
+      <div className="gif_container">
+        <img
+          className="gif"
+          src="https://media2.giphy.com/media/CJl7OCbeJuZfIGSjuE/giphy.gif"
+        />
       </div>
     </div>
   );
