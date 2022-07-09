@@ -1,12 +1,4 @@
 .card_container {
-  background-color: rgba(0, 0, 0, 0.349);
-  background: rgb(131, 58, 180);
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 0.2) 0%,
-    rgba(253, 29, 29, 0.2) 50%,
-    rgba(252, 176, 69, 0.2) 100%
-  );
   font-family: "Montserrat", sans-serif;
 
   display: flex;
@@ -31,6 +23,7 @@
   width: 100%;
   justify-self: center;
   align-self: center;
+  /* max-width: 800px; */
 }
 .gif {
   /* position: absolute; */
@@ -40,6 +33,7 @@
   inset: 0;
   object-fit: cover;
   border-radius: 0px 0px 10px 10px;
+  margin: 0 auto;
 }
 .card_header {
   font-size: 2rem;
@@ -54,4 +48,15 @@
 
 .card_header span {
   margin: 0 5%;
+}
+
+.instaclone {
+  background-color: rgba(0, 0, 0, 0.349);
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 0.2) 0%,
+    rgba(253, 29, 29, 0.2) 50%,
+    rgba(252, 176, 69, 0.2) 100%
+  );
 }
