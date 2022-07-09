@@ -227,7 +227,7 @@ export default function Hero() {
       <div className="container">
         <div className="height">
           <span className="text">
-            John Doetha
+            Devon Selvaggi
             <br />
             <br />
             <br />
