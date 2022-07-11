@@ -27,3 +27,6 @@ section {
   text-align: center;
   position: relative;
 }
+a:hover {
+  color: rgb(160, 0, 75);
+}

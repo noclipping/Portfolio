@@ -20,7 +20,9 @@ export default function Card({ project }) {
         </span>
       </div>
       <div className="gif_container">
-        <img className="gif" src={`${project?.gif}`} />
+        <a href={`${project.demo}`} target="_blank">
+          <img className="gif" src={`${project?.gif}`} />
+        </a>
       </div>
     </div>
   );
