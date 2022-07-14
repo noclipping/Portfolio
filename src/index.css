@@ -30,3 +30,18 @@ section {
 a:hover {
   color: rgb(255, 0, 0);
 }
+.gitLogo {
+  position: fixed;
+  color: white;
+  width: 100%;
+  z-index: 900;
+  bottom: 10px;
+  left: 10px;
+  font-size: 6vw;
+}
+
+@media only screen and (max-width: 1100px) {
+  .gitLogo {
+    font-size: 12vw;
+  }
+}
