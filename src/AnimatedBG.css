@@ -98,3 +98,22 @@
     transform: translate(-50%, -50%);
   }
 }
+
+@media only screen and (max-width: 1500px) {
+  .text {
+    font-size: 18vw;
+  }
+
+  .container {
+    width: 40%;
+    position: relative;
+    background-color: black;
+
+    text-align: center;
+    margin: 20px;
+    position: absolute;
+    top: 31%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+  }
+}
