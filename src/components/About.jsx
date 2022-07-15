@@ -13,6 +13,7 @@ export default function About() {
             <img src={image} className="portrait" />
           </div>
           <div className="about_text">
+            <h1 className="headerInner">About</h1>
             <p>
               Hey, I'm <span style={{ color: "red" }}>Devon</span>, a 22 y.o.
               self taught full-stack developer residing in NE Pennsylvania. I
@@ -41,9 +42,11 @@ export default function About() {
                 >
                   <SiLinkedin /> LinkedIn
                 </span>
-                <span href="">
-                  <SiGithub />
-                  GitHub
+                <span>
+                  <a href="https://github.com/noclipping" target="_blank">
+                    <SiGithub />
+                    GitHub
+                  </a>
                 </span>
               </div>
             </p>
