@@ -17,6 +17,9 @@
   font-family: "Qwigley", cursive;
   font-size: 12vw;
 }
+.headerInner {
+  display: none;
+}
 .about_card_container {
   text-align: initial;
   display: grid;
@@ -65,6 +68,14 @@
   }
 }
 @media only screen and (max-width: 800px) {
+  .header {
+    display: none;
+  }
+  .headerInner {
+    display: block;
+    font-family: "Qwigley", cursive;
+    font-size: 12vw;
+  }
   .about_card_container {
     grid-template-columns: 1fr;
   }
