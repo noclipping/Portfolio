@@ -64,3 +64,13 @@
     rgba(252, 176, 69, 0.2) 100%
   );
 }
+.social_humans {
+  background-color: rgba(0, 0, 0, 0.349);
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 162, 255, 0.2) 0%,
+    rgba(87, 13, 90, 0.2) 50%,
+    rgba(69, 133, 252, 0.2) 100%
+  );
+}
