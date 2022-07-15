@@ -16,17 +16,7 @@ function App() {
     <div className="App">
       <Hero />
 
-      <div
-        style={{
-          position: "fixed",
-          color: "white",
-          width: "100%",
-          zIndex: "900",
-          bottom: "10px",
-          left: "10px",
-          fontSize: "6vw",
-        }}
-      >
+      <div className="gitLogo">
         <a href="https://github.com/noclipping" target="_blank">
           <BsGithub />
         </a>
