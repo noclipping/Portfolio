@@ -20,7 +20,6 @@ export default function Projects() {
     <section id="projects">
       <div className="cards_container">
         <Card project={instagram} />
-
         <Card project={socialHumans} />
       </div>
     </section>
