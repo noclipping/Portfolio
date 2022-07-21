@@ -21,7 +21,10 @@ export default function Card({ project }) {
       </div>
       <div className="gif_container">
         <a href={`${project.demo}`} target="_blank">
-          <img className="gif" src={`${project?.gif}`} />
+          {/* <img className="gif" src={`${project?.gif}`} /> */}
+          <video className="gif" loop muted autoPlay>
+            <source src={`${project?.gif}`} type="video/mp4"></source>
+          </video>
         </a>
       </div>
     </div>
