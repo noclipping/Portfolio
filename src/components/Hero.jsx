@@ -150,9 +150,6 @@ function onLoad() {
     }
   }
   refresh();
-
-  // scrolling to top on page load. resizes on page size manipulation... hmm...
-  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function randomize() {
