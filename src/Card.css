@@ -74,3 +74,16 @@
     rgba(69, 133, 252, 0.2) 100%
   );
 }
+
+.tnw_clone {
+  background-color: rgba(0, 0, 0, 0.349);
+  background: rgb(129, 127, 130);
+  background: linear-gradient(
+    90deg,
+    rgba(129, 127, 130, 1) 0%,
+    rgba(41, 41, 41, 1) 35%,
+    rgba(22, 22, 22, 0.9416141456582633) 50%,
+    rgba(38, 38, 38, 1) 63%,
+    rgba(129, 127, 130, 1) 100%
+  );
+}
