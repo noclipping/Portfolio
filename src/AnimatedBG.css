@@ -4,6 +4,18 @@
   max-height: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
+
+  background-image: linear-gradient(
+    0deg,
+    rgb(19, 22, 27) 0%,
+
+    rgb(32, 37, 44) 50%,
+
+    rgb(38, 43, 54) 100%
+  );
+}
+.matbg {
+  object-fit: cover;
 }
 .container {
   width: 40%;
@@ -81,6 +93,9 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .matbg {
+    object-fit: cover;
+  }
   .text {
     font-size: 20vw;
   }
