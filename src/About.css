@@ -96,6 +96,11 @@
     font-size: 2.8vw;
     order: -1;
   }
+  .about_text {
+    padding: 20px;
+    font-size: 1.6vw;
+    line-height: 1.5;
+  }
 }
 
 @media only screen and (max-width: 575px) {
