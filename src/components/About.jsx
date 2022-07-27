@@ -35,12 +35,13 @@ export default function About() {
                     Email
                   </span>
                 </a>
-                <span
-                  onClick={() => {
-                    alert("No LinkedIn as of yet :(");
-                  }}
-                >
-                  <SiLinkedin /> LinkedIn
+                <span>
+                  <a
+                    href="https://www.linkedin.com/in/devon-selvaggi-0b199a246/"
+                    target="_blank"
+                  >
+                    <SiLinkedin /> LinkedIn
+                  </a>
                 </span>
                 <span>
                   <a href="https://github.com/noclipping" target="_blank">
