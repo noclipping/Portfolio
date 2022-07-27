@@ -9,7 +9,7 @@ export default function Projects() {
     title: "InstaClone",
     background: "instaclone",
     repo: "https://github.com/noclipping/instagramClone",
-    demo: "https://instagram-clone-pig9cvrvm-noclipping.vercel.app/",
+    demo: "https://instaclone-lovat.vercel.app/",
     gif: instacloneVid,
   };
   const socialHumans = {
