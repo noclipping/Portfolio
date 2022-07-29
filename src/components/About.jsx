@@ -53,9 +53,6 @@ export default function About() {
             </p>
           </div>
         </div>
-        {/* <a href="mailto:aresous@gmail.com?subject=Hi!">
-          <span>Message me</span>
-        </a> */}
       </div>
     </section>
   );
